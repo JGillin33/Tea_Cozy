@@ -1,0 +1,64 @@
+
+header {
+  height: 60px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav span {
+
+  color: seashell;
+  font-size: 22px;
+  text-decoration: underline;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 15px;
+
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+.main-container{
+  position: relative;
+  top: 70px;
+  Margin: 0;
+}
+
+.mission .image-content {
+  background-image: url(/Web_Dev_Projects/Tea_Cozy/resources/images/img-mission-background.jpg);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 700px;
+
+}
+
+.mission .image-text{
+  color: seashell;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  width: 1200px;
+}
