@@ -1,4 +1,10 @@
 
+body {
+  background-color: black;
+
+}
+
+
 header {
   height: 60px;
   border-bottom: 1px solid seashell;
@@ -49,7 +55,7 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 100%;
+  width: 1200px;
   height: 700px;
 
 }
@@ -61,4 +67,10 @@ a {
   text-align: center;
   display: inline-block;
   width: 1200px;
+}
+
+.tom {
+  color: seashell;
+  text-align: center;
+  justify-content: center;
 }
