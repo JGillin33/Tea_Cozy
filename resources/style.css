@@ -73,6 +73,8 @@ a {
   width: 1200px;
 }
 
+/*tea of the month*/
+
 .tom {
   color: seashell;
   text-align: center;
@@ -106,6 +108,8 @@ a {
   color: seashell;
   text-align: center;
 }
+
+/*locations*/
 
 .locations {
   background-image: url(images/img-locations-background.jpg);
@@ -146,4 +150,22 @@ a {
   justify-content: space-around;
   color: seashell;
   display: block;
+}
+
+/*footer*/
+
+.contact {
+  color: seashell;
+  text-align: center;
+  display: block;
+  height: 200px;
+
+}
+
+ footer  {
+
+  text-align: left;
+  margin-left: 20px;
+  color: seashell;
+  display: inline;
 }
