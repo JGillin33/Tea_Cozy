@@ -113,10 +113,37 @@ a {
   height: 500px;
   margin: 0 auto;
   align-self: center;
+  display: inline-block;
 }
 
 .locations h2 {
   color: seashell;
   text-align: center;
 
+}
+
+.address {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.store span {
+  padding-bottom: 30px;
+  display: block;
+  text-align: center;
+}
+
+.store h3 {
+  text-align: center;
+}
+
+.flex-container .store {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 0 20px;
+  justify-content: space-around;
+  color: seashell;
+  display: block;
 }
